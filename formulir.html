@@ -10,9 +10,24 @@
     <div>
         <form action="/daftar" method="post">
             <div>
-            <label for="nama">NAMA LENGKAP</label>
-            <input type="text" name="nama" id="nama" placeholder="Masukkan nama lengkap" maxlength="30">
-            </div>  
+                <label for="nama">NAMA LENGKAP</label>
+                <input type="text" name="nama" id="nama" placeholder="Masukkan nama lengkap" maxlength="30">
+            </div>
+            <div>
+                <label for="jk">JENIS KELAMIN</label>
+                <input type="radio" name="jk" id="jk" value="laki-laki">LAKI - LAKI
+                <input type="radio" name="pr" id="pr" value="perempuan">PEREMPUAN
+            </div>
+            <div>
+                <label for="ttl">TEMPAT,  TANGGAL LAHIR</label>
+                <input type="text" name="ttl" id="ttl" placeholder="Masukkan tempat lahir">
+                <input type="date" name="ttl" id="ttl" value="tanggal_lahir">
+            </div>
+            <div>
+                <label for="alamat">ALAMAT LENGKAP</label>
+                <textarea name="alamat" id="alamat" rows="5" cols="
+                20"></textarea>
+            </div>
         </form>
     </div>
 </body>
